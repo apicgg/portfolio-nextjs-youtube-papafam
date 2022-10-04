@@ -25,16 +25,29 @@ const Header = (props: Props) => {
         {/* social icons */}
         <SocialIcon
           url='https://github.com/apicgg'
+          target='_blank'
+          rel='noopener noreferrer'
+          fgColor='gray'
+          bgColor='transparent'
+        />
+        <SocialIcon
+          url='https://www.linkedin.com/in/anurag-pramanik-345843125/'
+          target='_blank'
+          rel='noopener noreferrer'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
           url='https://twitter.com/titas_p'
+          target='_blank'
+          rel='noopener noreferrer'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
           url='https://twitch.tv/apicgg'
+          target='_blank'
+          rel='noopener noreferrer'
           fgColor='gray'
           bgColor='transparent'
         />
