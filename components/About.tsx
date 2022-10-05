@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import aboutRight from '../public/assets/about-right.svg'
+import myAvatar from '../public/assets/my-avatar.svg'
 
 type Props = {}
 
@@ -10,13 +10,7 @@ const About = (props: Props) => {
         About
       </h3>
 
-      <div>
-        <Image
-          src={aboutRight}
-          alt='About page image'
-          className='rounded-full w-56 h-56 object-cover flex-shrink-0 mb-20 md:mb-0 md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
-        />
-      </div>
+      <Image src={myAvatar} alt='About page avatar' width='220' height='220' />
     </div>
   )
 }
