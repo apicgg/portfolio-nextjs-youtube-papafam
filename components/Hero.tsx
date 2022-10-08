@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircle from './BackgroundCircle'
-import avatar from '../public/home-right.png'
+import avatar from '../public/assets/home-right.png'
 import Link from 'next/link'
 
 type Props = {}
